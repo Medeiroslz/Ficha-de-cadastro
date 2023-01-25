@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Cadastro</title>
+    <script src="Scrypt.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="shortcut icon"
+      href="./prancheta.ico.ico"
+      type="image/x-icon"
+    />
+    
+</head>
+<body >   
+    <div class="navbar">
+        <h1>Formulário de Cadastro de Clientes</h1>     
+        <h2 class="h2nav">Preencha seus dados,corretamente</h2>
+    </div>
+    <br>
+    
+    <main class="main_1">
+        <div class="dadosp">
+          Nome completo
+        </div>
+        <p></p>
+        <input type="text" placeholder="Seu Nome">
+        <p>CPF</p>
+        <input type="number" placeholder="Seu CPF">
+        <P>Data de Nascimento</P>
+        <input type="date" placeholder="D/M/A">
+        <p>Email</p>
+        <input type="email" name="email" id="" placeholder="Seu Email">
+        
+    </main>
+    <br>
+    <main class="main_2">
+        <br>
+        <p>Endereço</p>
+        <input type="text" placeholder="Rua e Numero">
+        <br><br>
+        <input type="text" placeholder="Complemento">
+        <br><br>        
+        <input type="text" placeholder="Cidade" class="cidade">
+        <input type="text" placeholder="Estado" class="estado">
+        <input type="number" placeholder="CEP">
+
+    </main>
+    <br>
+    <main class="main_3">
+        <br>       
+        <p class="p-nmr-phone">Numero de Telefone</p>
+        <div class="phone">
+        <input type="number" placeholder="(DDD)" class="ddd">
+        <input type="number" placeholder=" 00000-0000" class="telefone">
+        </div>
+        <br>
+        <div class="checkbox">
+        <input id="checkbox1" type="checkbox" name="wpp" >
+        <label for="checkbox">Marque caso use o mesmo numero para o WhatsApp</label>
+        </div>
+        <br><br>
+        <input type="submit" class="enviar">
+        
+    </main>
+    
+    
+</body>
+</html>

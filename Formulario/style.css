@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    background-image: url(./wallpaperbetter.com_1920x1080.jpg);
+    opacity: .95 ;
+    color:white;
+    background-repeat: repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+
+}
+.navbar{
+   margin: -8px;
+   padding:10px;
+   font-size: large;
+   color: rgb(4, 51, 102); 
+   background-color:white;
+    
+}
+.h2nav{
+    text-align: center;
+}
+
+.main_1{
+    display: block;
+    height: 400px;
+    max-width: 50%;
+    margin:auto;
+    border-radius: 33px;
+    background: #e0e0e0;
+    font-size: 20px; 
+    font-weight: bold; 
+    color:black;
+    text-align: center;
+    
+}
+.dadosp{
+    font-size:25px;
+    display:inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+input{margin-left:10px;
+}
+
+input{
+    width: 50%;
+    height:25px ;
+}
+.main_2{
+    display: block;
+    height: 400px;
+    max-width: 50%;
+    margin:auto;
+    border-radius: 33px;
+    background: #e0e0e0;
+    font-size: 25px; 
+    font-weight: bold; 
+    color:black;
+    text-align: center;
+}
+.main_3{
+    height: 400px;
+    max-width: 50%;
+    margin:auto;
+    border-radius: 33px;
+    background: #e0e0e0;
+    font-size: 25px;    
+    color:black;
+    text-align: center;
+}
+
+.p-nmr-phone{
+    font-weight: bold; 
+}
+.ddd{
+    display: inline;
+    width: 10%;
+    column-rule-style: hidden;
+}
+.telefone{
+    display: inline;
+}
+
+
+.checkbox{
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding: 5px;
+       
+}
+label{
+   font-family: Arial, Helvetica, sans-serif;
+}
+#checkbox1{
+    display: inline;
+    width: 30px;
+}
+.enviar{
+    width: 20%;
+    font-size: large;
+    
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input{
+    border-radius: 10px;
+}
